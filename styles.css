@@ -1,0 +1,28 @@
+.todo-list ,.sub-item{
+  list-style-type: none;
+}
+/* default color not visited */
+.sub-item-link:link{
+    color: blue;
+}
+/* link when visited */
+.sub-item-link:visited{
+  color: rgb(149, 18, 117);
+}
+/* link when hovered */
+.sub-item-link:hover{
+  color: maroon;
+}
+/* link outline */
+.sub-item-link:focus{
+  outline: 2px solid pink;
+}
+.sub-item-link:active{
+  color: green;
+}
+.sub-item-link{
+  text-decoration: none;
+}
+.one{
+  margin-bottom: 10px;
+}

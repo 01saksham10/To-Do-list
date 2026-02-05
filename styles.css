@@ -1,28 +1,42 @@
-.todo-list ,.sub-item{
-  list-style-type: none;
+body {
+    background-color: beige;
+    font-family: sans-serif;
+
 }
+
+.todo-list,
+.sub-item {
+    list-style-type: none;
+}
+
 /* default color not visited */
-.sub-item-link:link{
+.sub-item-link:link {
     color: blue;
 }
+
 /* link when visited */
-.sub-item-link:visited{
-  color: rgb(149, 18, 117);
+.sub-item-link:visited {
+    color: rgb(149, 18, 117);
 }
+
 /* link when hovered */
-.sub-item-link:hover{
-  color: maroon;
+.sub-item-link:hover {
+    color: maroon;
 }
+
 /* link outline */
-.sub-item-link:focus{
-  outline: 2px solid pink;
+.sub-item-link:focus {
+    outline: 2px solid pink;
 }
-.sub-item-link:active{
-  color: green;
+
+.sub-item-link:active {
+    color: green;
 }
-.sub-item-link{
-  text-decoration: none;
+
+.sub-item-link {
+    text-decoration: none;
 }
-.one{
-  margin-bottom: 10px;
+
+.one {
+    margin-bottom: 10px;
 }

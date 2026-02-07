@@ -30,7 +30,7 @@ body {
 }
 
 .sub-item-link:active {
-    color: green;
+    color: rgb(178, 246, 178);
 }
 
 .sub-item-link {
